@@ -57,7 +57,7 @@ namespace API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "SmartEnterprise API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "pablogramajo API", Version = "v1" });
                 c.AddSecurityDefinition("Bearer", new ApiKeyScheme
                 {
                     In = "header",
@@ -88,7 +88,7 @@ namespace API
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SmartEnterprise API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "pablogramajo API V1");
                 c.RoutePrefix = string.Empty;
             });
             app.UseHttpsRedirection();
