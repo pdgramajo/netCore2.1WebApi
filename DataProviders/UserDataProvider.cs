@@ -82,8 +82,8 @@ namespace Api.DataProviders
             };
 
             var token = new JwtSecurityToken(
-                issuer: "jbknowledge.com",
-                audience: "jbknowledge.com",
+                issuer: "www.pablogramajo.com",
+                audience: "www.pablogramajo.com",
                 expires: DateTime.Now.AddMinutes(10),
                 claims: userClaim,
                 signingCredentials: credential

@@ -38,8 +38,8 @@ namespace API
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = "jbknowledge.com",
-                    ValidAudience = "jbknowledge.com",
+                    ValidIssuer = "www.pablogramajo.com",
+                    ValidAudience = "www.pablogramajo.com",
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretKey))
                 };
             });
