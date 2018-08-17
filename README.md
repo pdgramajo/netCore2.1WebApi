@@ -1,0 +1,1 @@
+.netCore v2.1 , Swagger ( Swashbuckle.AspNetCore ) , Dapper C# , JwtSecurityToken
